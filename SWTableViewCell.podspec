@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'PRODUCT_NAME' => 'SWTableViewCell' }
   s.header_dir = "SWTableViewCell"
   s.module_name = "SWTableViewCell"
-  s.public_header_files = 'SWTableViewCell/*.h'
+  s.public_header_files = 'SWTableViewCell/SWTableViewCell/*.h'
 end
