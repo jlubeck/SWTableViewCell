@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'SWTableViewCell'
-  s.version  = '0.3.7'
+  s.version  = '0.3.8'
   s.author   = { 'Chris Wendel' => 'chriwend@umich.edu' }
   s.homepage = 'https://github.com/CEWendel/SWTableViewCell'
   s.summary  = 'UITableViewCell subclass that implements a swipeable content view which exposes utility buttons.'
@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
+  s.pod_target_xcconfig = { 'PRODUCT_NAME' => 'SWTableViewCell' }
+  s.module_name = "SWTableViewCell"
 end
