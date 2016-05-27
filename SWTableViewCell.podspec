@@ -8,8 +8,9 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/CEWendel/SWTableViewCell.git', :tag => s.version.to_s }
   s.source_files = 'SWTableViewCell/PodFiles/*.{h,m}'
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '6.0'
   s.requires_arc = true
   s.pod_target_xcconfig = { 'PRODUCT_NAME' => 'SWTableViewCell' }
+  s.header_dir = "SWTableViewCell"
   s.module_name = "SWTableViewCell"
 end
